@@ -15,20 +15,20 @@ const Navbar = () => {
         <nav className='sticky inset-x-0 top-0 z-30 w-full shadow-lg shadow-cyan-500/50 bg-white/75 backdrop-blur-lg transition-all'>
             <MaxWidthWrapper>
                 <div className='flex h-full items-center justify-between py-6'>
-                    <Image src={Logo} alt='UTES logo' height={100} width={100} quality={100} />
+                    <Link href={"/"}><Image src={Logo} alt='UTES logo' height={100} width={100} quality={100} className='duration-300 hover:scale-105 active:scale-95'/></Link>
 
                     {/* non mobile nav */}
                     <div className='hidden md:flex space-x-12 font-bold text-2xl uppercase text-primary tracking-widest'>
-                        <Link href={"/about"}>
+                        <Link href={"/about"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             about
                         </Link>
-                        <Link href={"/staff"}>
+                        <Link href={"/staff"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             staff
                         </Link>
-                        <Link href={"/teams"}>
+                        <Link href={"/teams"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             teams
                         </Link>
-                        <Link href={"/contact"}>
+                        <Link href={"/contact"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             contact
                         </Link>
                     </div>
@@ -49,16 +49,16 @@ const Navbar = () => {
                         }} className='mb-12'>
                             <X className='h-10 w-10' />
                         </button>
-                        <Link href={"/about"} className='border-b border-zinc-200 py-6'>
+                        <Link href={"/about"} className='border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             about
                         </Link>
-                        <Link href={"/staff"} className='border-b border-zinc-200 py-6'>
+                        <Link href={"/staff"} className='border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             staff
                         </Link>
-                        <Link href={"/teams"} className='border-b border-zinc-200 py-6'>
+                        <Link href={"/teams"} className='border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             teams
                         </Link>
-                        <Link href={"/contact"} className='border-b border-zinc-200 py-6'>
+                        <Link href={"/contact"} className='border-b border-zinc-200 py-6 duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>
                             contact
                         </Link>
                     </div>

@@ -8,14 +8,14 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <footer className='flex justify-center absolute bottom-0 w-screen flex-col'>
+        <footer className='flex justify-center bottom-0 w-full flex-col'>
             <div className='flex flex-col gap-3 py-20 justify-center items-center'>
                 <h1 className='uppercase text-primary text-center text-xl'>Proud partners of</h1>
                 <Image src={Kovaak} alt="Kovaak logo" width={250} />
             </div>
 
             <div className='py-20 flex flex-col justify-center items-center text-center uppercase bg-primary text-white'>
-                <div className='flex space-x-12 pb-6'>
+                <div className='flex gap-12 pb-6'>
                     <Link href={"discord"} target='_blank'>
                         <Image src={Discord} alt="Discord logo" width={40} />
                     </Link>

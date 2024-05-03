@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Rajdhani } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import {cn} from './lib/utils'
+import { cn } from './lib/utils'
 import Footer from "./components/Footer";
 
 const rajdhani = Rajdhani({
@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn('min-h-screen grainy antialiased', rajdhani.className)}>
-        <Navbar/>
+        <Navbar />
         {children}
         <Footer />
       </body>

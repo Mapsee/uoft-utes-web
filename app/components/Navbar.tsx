@@ -12,7 +12,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <nav className='sticky inset-x-0 top-0 z-30 w-full shadow-lg shadow-cyan-500/50 bg-white/75 backdrop-blur-lg transition-all'>
+        <nav className='sticky inset-x-0 top-0 z-30 w-full shadow-lg shadow-cyan-500/80 bg-white/75 backdrop-blur-lg transition-all'>
             <MaxWidthWrapper>
                 <div className='flex h-full items-center justify-between py-6'>
                     <Link href={"/"}><Image src={Logo} alt='UTES logo' height={100} width={100} quality={100} className='duration-300 hover:scale-105 active:scale-95'/></Link>

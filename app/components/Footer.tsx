@@ -16,14 +16,14 @@ const Footer = () => {
 
             <div className='py-20 flex flex-col justify-center items-center text-center uppercase bg-primary text-white'>
                 <div className='flex gap-12 pb-6'>
-                    <Link href={"discord"} target='_blank'>
-                        <Image src={Discord} alt="Discord logo" width={40} />
+                    <Link href={"https://discord.gg/EyjrqZyjh8"} target='_blank' className='hover:opacity-60 duration-300'>
+                        <Image src={Discord} alt="Discord logo" width={40} className='aspect-square'/>
                     </Link>
-                    <Link href={"https://twitter.com/UofTEsports"} target='_blank'>
-                        <Image src={Twitter} alt="Twitter logo" width={40} />
+                    <Link href={"https://twitter.com/UofTEsports"} target='_blank' className='hover:opacity-60 duration-300'>
+                        <Image src={Twitter} alt="Twitter logo" width={40} className='aspect-square'/>
                     </Link>
-                    <Link href={"https://www.instagram.com/uoftesports/"} target='_blank'>
-                        <Image src={Insta} alt="Instagram logo" width={40} />
+                    <Link href={"https://www.instagram.com/uoftesports/"} target='_blank' className='hover:opacity-60 duration-300'>
+                        <Image src={Insta} alt="Instagram logo" width={40} className='aspect-square' />
                     </Link>
                 </div>
                 <h1 className='text-xl'>@2023 University of Toronto</h1>

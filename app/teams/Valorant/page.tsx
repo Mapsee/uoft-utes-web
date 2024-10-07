@@ -1,5 +1,7 @@
 import Image from "next/image";
-import Backdrop from "../../assets/images/backdrop_valorant.gif";
+import Backdrop from "../../assets/images/backdrop_valorant_team.gif";
+import MaxWidthWrapper from "@/app/components/MaxWidthWrapper";
+import PlayerCard from "@/app/components/PlayerCard";
 
 export default function Valorant() {
   return (
@@ -24,6 +26,62 @@ export default function Valorant() {
           loading="lazy"
         />
       </div>
+
+      {/* Varsity */}
+      <MaxWidthWrapper>
+        <h1 className="font-bold">VARSITY</h1>
+        <div className="flex flex-col justify-between items-center">
+          <div className="flex flex-row">
+            <PlayerCard
+              alias="Mapsee"
+              game_tag="Mapsee#12345"
+              name="UOFT ESPORTS"
+              role="Duelist"
+              instagram="uoftesports"
+              twitch="uoftesports"
+              twitter="uoftesports"
+            />
+            <PlayerCard
+              alias="Mapsee"
+              game_tag="Mapsee#12345"
+              name="UOFT ESPORTS"
+              role="Duelist"
+              instagram="uoftesports"
+              twitch="uoftesports"
+              twitter="uoftesports"
+            />
+            <PlayerCard
+              alias="Mapsee"
+              game_tag="Mapsee#12345"
+              name="UOFT ESPORTS"
+              role="Duelist"
+              instagram="uoftesports"
+              twitch="uoftesports"
+              twitter="uoftesports"
+            />
+          </div>
+          <div className="flex flex-row">
+            <PlayerCard
+              alias="Mapsee"
+              game_tag="Mapsee#12345"
+              name="UOFT ESPORTS"
+              role="Duelist"
+              instagram="uoftesports"
+              twitch="uoftesports"
+              twitter="uoftesports"
+            />
+            <PlayerCard
+              alias="Mapsee"
+              game_tag="Mapsee#12345"
+              name="UOFT ESPORTS"
+              role="Duelist"
+              instagram="uoftesports"
+              twitch="uoftesports"
+              twitter="uoftesports"
+            />
+          </div>
+        </div>
+      </MaxWidthWrapper>
     </main>
   );
 }

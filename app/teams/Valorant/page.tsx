@@ -28,8 +28,8 @@ export default function Valorant() {
       </div>
 
       {/* Varsity */}
-      <MaxWidthWrapper>
-        <h1 className="font-bold">VARSITY</h1>
+      <MaxWidthWrapper className="py-20 ">
+        <h1 className="font-bold text-6xl pb-6">VARSITY</h1>
         <div className="flex flex-col justify-between items-center">
           <div className="flex flex-row">
             <PlayerCard

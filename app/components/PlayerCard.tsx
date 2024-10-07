@@ -22,9 +22,9 @@ const PlayerCard: React.FC<PlayerCardProps> = ({
   twitter,
 }) => {
   return (
-    <div className="bg-primary text-white w-80 h-60">
+    <div className="bg-primary text-white w-80 h-36 drop-shadow-2xl">
       <h1 className="font-light">{role}</h1>
-      <h1>{name}</h1>
+      <h1 className="font-regular">{name}</h1>
       <h1 className="font-light">
         {alias} / {game_tag}
       </h1>
@@ -32,6 +32,7 @@ const PlayerCard: React.FC<PlayerCardProps> = ({
       <Link href={`https://www.twitch.com/${twitch}`}></Link>
       <Link href={`https://www.x.com/${twitter}`}></Link>
     </div>
+
   );
 };
 

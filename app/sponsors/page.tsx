@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function Sponsors() {
     return (
         <div></div>
     );

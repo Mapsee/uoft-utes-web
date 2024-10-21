@@ -35,14 +35,12 @@ export default function Teams() {
 
       <section className="py-20">
         <MaxWidthWrapper>
-          <h1 className="max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12">
-            Meet the teams
-          </h1>
+          <h1 className='max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12'>Meet the teams</h1>
           <div className="flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel">
-            <TeamCard img={Overwatch2} game="Overwatch 2" />
-            <TeamCard img={League} game="League of Legends" />
-            <TeamCard img={CSGO} game="Counter-Strike 2" />
-            <TeamCard img={Valorant} game="Valorant" />
+            <TeamCard img={Overwatch2} game="Overwatch 2" link="Overwatch2"/>
+            <TeamCard img={League} game="League of Legends" link="LeagueOfLegends"/>
+            <TeamCard img={CSGO} game="Counter-Strike 2" link="CounterStrike2"/>
+            <TeamCard img={Valorant} game="Valorant" link="Valorant"/>
           </div>
         </MaxWidthWrapper>
       </section>

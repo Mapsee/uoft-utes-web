@@ -10,7 +10,9 @@
     box-shadow: 10px 10px #6FC7EA;
 }
 
-
+.cyan_shadow2 {
+    box-shadow: 5px 5px #6FC7EA;
+}
 
 .carousel::-webkit-scrollbar{
     height: 7px;

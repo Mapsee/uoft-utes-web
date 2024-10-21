@@ -57,7 +57,7 @@ export default function Overwatch2() {
             <PlayerCard
               alias="Eye"
               name="Yangxiao J."
-              role="Duelist"
+              role="DPS"
             />
             <PlayerCard
               alias="Defferatel"

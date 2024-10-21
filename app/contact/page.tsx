@@ -1,15 +1,9 @@
 import Image from 'next/image'
 import Backdrop from '../assets/images/utesbanner.png'
 import MaxWidthWrapper from '../components/MaxWidthWrapper';
-import BoxWrapper from '../components/BoxWrapper';
-import Overwatch2 from '../assets/images/overwatch2.jpg'
-import TeamCard from '../components/TeamCard';
 import Discord from '../assets/images/icons/discord.svg'
 import Twitter from '../assets/images/icons/twitter.svg'
 import Twitch from '../assets/images/icons/twitch.svg'
-import CSGO from "../assets/images/cs.png";
-import League from "../assets/images/league.png";
-import Valorant from "../assets/images/val.png";
 import Youtube from '../assets/images/icons/youtube.svg'
 import Link from 'next/link';
 import ContactUs from '../assets/images/contactus.png'
@@ -26,7 +20,7 @@ export default function Contact() {
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <h1 className="text-9xl max-sm:text-8xl font-bold text-white drop-shadow-2xl">
-            Staff
+            CONTACT
           </h1>
         </div>
       </div>

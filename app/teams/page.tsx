@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Backdrop from "../assets/images/utesbanner.png";
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
-import BoxWrapper from "../components/BoxWrapper";
 import Overwatch2 from "../assets/images/overwatch2.jpg";
 import CSGO from "../assets/images/cs.png";
 import League from "../assets/images/league.png";

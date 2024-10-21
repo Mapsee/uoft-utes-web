@@ -8,8 +8,10 @@ import AchievementCard from './components/AchievementCard';
 import Discord from './assets/images/icons/discord.svg'
 import Twitter from './assets/images/icons/twitter.svg'
 import Twitch from './assets/images/icons/twitch.svg'
+import CSGO from "./assets/images/cs.png";
+import League from "./assets/images/league.png";
+import Valorant from "./assets/images/val.png";
 import Youtube from './assets/images/icons/youtube.svg'
-
 import Temp from './assets/images/tempAchiev.svg'
 import Link from 'next/link';
 
@@ -18,7 +20,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main>
-      <div className='w-full h-[75vh] max-sm:h-[50vh] relative'>
+      <div className='w-full h-[35vh] max-sm:h-[50vh] relative'>
         <div className='absolute top-0 left-0 w-full h-full bg-gradient-to-t from-white/70  to-white/0 to-10%'></div>
         <Image src={Backdrop} alt='hero banner' className='w-full h-full object-cover' quality={100} loading='lazy' />
       </div>
@@ -26,9 +28,9 @@ export default function Home() {
       <MaxWidthWrapper>
         {/* Hero section */}
         <BoxWrapper className='-translate-y-10'>
-          <h1 className='max-sm:text-4xl max-sm:text-center text-7xl font-bold'>Gear Up for Victory!</h1>
-          <p className='text-xl py-5'>Unleash timeless style and unbeatable comfort with the 2024 Cloud9 Pro Kit! Carefully selected for durability and functionality, each product empowers you to represent Cloud9 in any environment.</p>
-          <button className='bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600'>CTA</button>
+          <h1 className='max-sm:text-4xl max-sm:text-center text-7xl font-bold'>Welcome to UofT Esports!</h1>
+          <p className='text-xl py-5'>UTES is a non-profit student group that is the hub for all Esports and gaming communities & activities at the University of Toronto. We aim to unite students by a common love of gaming through community events & discussions on and offline. We encourage you to come out and meet new people!</p>
+          <a className='bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href="https://discord.gg/EyjrqZyjh8">Join our Discord Server!</a>
         </BoxWrapper>
       </MaxWidthWrapper>
 
@@ -37,28 +39,11 @@ export default function Home() {
       <section className='py-36'>
         <MaxWidthWrapper>
           <h1 className='max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12'>Meet the teams</h1>
-          <div className='flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel'>
-            <TeamCard img={Overwatch2} game='Overwatch2' />
-            <TeamCard img={Overwatch2} game='Overwatch2' />
-            <TeamCard img={Overwatch2} game='Overwatch2' />
-            <TeamCard img={Overwatch2} game='Overwatch2' />
-          </div>
-        </MaxWidthWrapper>
-      </section>
-
-      {/* Achievements */}
-      <section className='py-36 bg-primary w-full'>
-        <MaxWidthWrapper>
-          <h1 className='max-sm:text-4xl max-sm:text-center uppercase text-white text-6xl font-bold'>Achievements</h1>
-          <div className='flex flex-wrap gap-5 justify-around items-center'>
-            <AchievementCard img={Temp} date='04/09/2023' event='LCS 2023 Spring Playoffs' team='league' />
-            <AchievementCard img={Temp} date='04/09/2023' event='LCS 2023 Spring Playoffs' team='league' />
-            <AchievementCard img={Temp} date='04/09/2023' event='LCS 2023 Spring Playoffs' team='league' />
-            <AchievementCard img={Temp} date='04/09/2023' event='LCS 2023 Spring Playoffs' team='league' />
-            <AchievementCard img={Temp} date='04/09/2023' event='LCS 2023 Spring Playoffs' team='league' />
-            <AchievementCard img={Temp} date='04/09/2023' event='LCS 2023 Spring Playoffs' team='league' />
-            <AchievementCard img={Temp} date='04/09/2023' event='LCS 2023 Spring Playoffs' team='league' />
-            <AchievementCard img={Temp} date='04/09/2023' event='LCS 2023 Spring Playoffs' team='league' />
+          <div className="flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel">
+            <TeamCard img={Overwatch2} game="Overwatch 2" />
+            <TeamCard img={League} game="League of Legends" />
+            <TeamCard img={CSGO} game="Counter-Strike 2" />
+            <TeamCard img={Valorant} game="Valorant" />
           </div>
         </MaxWidthWrapper>
       </section>

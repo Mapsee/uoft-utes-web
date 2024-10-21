@@ -1,19 +1,19 @@
 import Image from "next/image";
-import Backdrop from "../../assets/images/backdrop_valorant_team.gif";
+import Backdrop from "./../assets/images/utesbanner.png";
 import MaxWidthWrapper from "@/app/components/MaxWidthWrapper";
 import PlayerCard from "@/app/components/PlayerCard";
 
-export default function Valorant() {
+export default function Overwatch2() {
   return (
     <main>
       <div className="w-full h-[35vh] max-sm:h-[50vh] relative">
         {/* Gradient Overlay */}
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-white/70 to-white/0 to-10%"></div>
+        {/* <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-white/70 to-white/0 to-10%"></div> */}
 
         {/* Text Overlay */}
-        <div className="absolute inset-0 flex items-center justify-center fill-zinc-100 z-10">
+        <div className="absolute inset-0 flex items-center justify-center z-10">
           <h1 className="text-9xl max-sm:text-8xl font-bold text-white drop-shadow-2xl">
-            VALORANT
+            Staff
           </h1>
         </div>
 
@@ -24,39 +24,38 @@ export default function Valorant() {
           className="w-full h-full object-cover"
           quality={100}
           loading="lazy"
-          unoptimized={true}
         />
       </div>
 
       {/* Varsity */}
       <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-6xl pb-6 text-primary">VARSITY</h1>
+        <h1 className="font-bold text-6xl pb-6 text-primary">Esports Executives</h1>
         <div className="flex flex-row justify-between items-center">
           <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
             <PlayerCard
-              alias="KEVN"
-              name="Kevin K."
-              role="Sentinel"
+              alias="kaprixal"
+              name="Kirsten S."
+              role="President"
             />
             <PlayerCard
-              alias="Hypecks"
-              name="Merwin T."
-              role="Initiator"
+              alias="JaidynPurple"
+              name="Jaidyn Y."
+              role="External Affairs"
             />
             <PlayerCard
-              alias="jacky"
-              name="Jacky C."
-              role="Controller"
+              alias="ghoulies"
+              name="Emily H."
+              role="Marketing Operations"
             />
             <PlayerCard
-              alias="Yonn"
-              name="Jonathan C."
-              role="Duelist"
+              alias="zlion"
+              name="Zilin C."
+              role="Broadcast Operations"
             />
             <PlayerCard
-              alias="axel"
-              name="Alex A."
-              role="Duelist"
+              alias="fairyy"
+              name="Ariana D."
+              role="Treasurer"
             />
           </div>
         </div>

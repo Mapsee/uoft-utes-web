@@ -1,18 +1,18 @@
 import Image from "next/image";
-import Backdrop from "../assets/images/about_backdrop.gif";
+import Backdrop from "../assets/images/utesbanner.png";
 import MaxWidthWrapper from "../components/MaxWidthWrapper";
 import BoxWrapper from "../components/BoxWrapper";
 
 export default function About() {
   return (
     <main>
-      <div className="w-full h-[75vh] max-sm:h-[50vh] relative">
+      <div className="w-full h-[35vh] max-sm:h-[50vh] relative">
         {/* Gradient Overlay */}
         <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-white/70 to-white/0 to-10%"></div>
 
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-9xl max-sm:text-8xl font-bold text-white drop-shadow-2xl">
+          <h1 className="text-9xl max-sm:text-8xl font-bold text-white drop-shadow-2xl z-10">
             ABOUT
           </h1>
         </div>
@@ -31,27 +31,31 @@ export default function About() {
         {/* Hero section */}
         <BoxWrapper className="-translate-y-10">
           <h1 className="max-sm:text-4xl max-sm:text-center text-7xl font-bold">
-            Lorem ipsum
+            About Us
           </h1>
           <p className="text-xl py-5">
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-            ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-            Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-            ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+            We strive to grow the esports scene at the University of Toronto and the gaming community across the city overall. We currently have divisions supporting League of Legends, Counter-Strike 2, Overwatch 2, and VALORANT. We compete at the highest level for each of these games, and also host some of the largest gaming communities in Ontario. Our events include LAN tournaments, socials, professional gamer meetups, and charity fundraisers.
           </p>
-          <button className="bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600">
-            CTA
-          </button>
+          <a href="/contact"><button className="bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600">
+            Contact Us
+          </button></a>
+          
         </BoxWrapper>
       </MaxWidthWrapper>
 
-      <MaxWidthWrapper className="py-20">
-        <h1 className="font-bold text-2xl">Lorem ipsum</h1>
+      <MaxWidthWrapper className="pt-20 -mt-20">
+        <h1 className="font-bold text-4xl mb-5">What We Do:</h1>
+        <h1 className="text-2xl font-medium">Events</h1>
         <p className="text-xl py-5">
-          Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-          ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-          Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem
-          ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+          We run many events year-long, including in-houses, small tournaments, LAN events, watch parties, intramural, irl meetups and more. Join our Discord for more information!
+        </p>
+        <h1 className="text-2xl font-medium">Broadcast</h1>
+        <p className="text-xl py-5">
+          We have developed our own broadcast unit at UofT Esports (UTES), consisting of many students and volunteers from the esports community interested in esports production. Broadcast at UTES gives many the opportunity to learn about casting, observing, and producing through hands-on experience.
+        </p>
+        <h1 className="text-2xl font-medium">Collegiate</h1>
+        <p className="text-xl py-5">
+          UofT is home to many of the top esports players in our game titles (Overwatch 2, Valorant, League of Legends, Counter-Strike 2). We offer Varsity teams that represent the schoo competing year-long in various tournaments, as well as Academy teams for aspiring competitive players.
         </p>
       </MaxWidthWrapper>
     </main>

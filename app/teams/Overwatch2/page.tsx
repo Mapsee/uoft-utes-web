@@ -37,11 +37,17 @@ export default function Overwatch2() {
               alias="Phant0mz"
               name="Lucas C."
               role="Tank"
+              instagram="lucas.cheuk"
+              twitter="Phant0mzOW"
             />
             <PlayerCard
               alias="Hypothesis"
               name="Max G."
-              role="Flex"
+              role="Flex (Tank, Support)"
+              twitch="hypothesis_ow"
+              instagram="maxgarciagomez"
+              twitter="HypothesisOW"
+
             />
             <PlayerCard
               alias="Solace"
@@ -66,17 +72,17 @@ export default function Overwatch2() {
             <PlayerCard
               alias="GoofyJoober"
               name="Hani S."
-              role="DPS"
+              role="DPS (Sub)"
             /> 
             <PlayerCard
               alias="Soomshigi"
               name="Hangyeol Y."
-              role="Tank"
+              role="Tank (Sub)"
             />
             <PlayerCard
               alias="Aspect"
               name="Hunter S."
-              role="Tank"
+              role="Tank (Sub)"
             />
           </div>
         </div>

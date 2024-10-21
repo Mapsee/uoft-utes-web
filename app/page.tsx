@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Backdrop from './assets/images/backdrop.gif'
+import Backdrop from './assets/images/utesbanner.png'
 import MaxWidthWrapper from './components/MaxWidthWrapper';
 import BoxWrapper from './components/BoxWrapper';
 import Overwatch2 from './assets/images/overwatch2.jpg'

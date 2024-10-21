@@ -13,7 +13,7 @@ export default function Overwatch2() {
         {/* Text Overlay */}
         <div className="absolute inset-0 flex items-center justify-center z-10">
           <h1 className="text-9xl max-sm:text-8xl font-bold text-white drop-shadow-2xl">
-            Staff
+            STAFF
           </h1>
         </div>
 

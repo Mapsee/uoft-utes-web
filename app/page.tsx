@@ -32,11 +32,11 @@ export default function Home() {
       <MaxWidthWrapper>
         {/* Hero section */}
         <BoxWrapper className='-translate-y-20'>
-          <h1 className='max-sm:text-4xl max-sm:text-center text-7xl font-bold'>Welcome to UofT Esports!</h1>
+          <h3 className='max-sm:text-4xl max-sm:text-center text-7xl font-bold'>Welcome to UofT Esports!</h3>
           <p className='text-xl py-5'>UTES is a non-profit student group that is the hub for all Esports and gaming communities & activities at the University of Toronto. We aim to unite students by a common love of gaming through community events & discussions on and offline. We encourage you to come out and meet new people!</p>
           <div className='gap-x-5 flex flex-row'>
-            <a className='bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href="https://discord.gg/EyjrqZyjh8">Join our Discord Server</a>
-            <a className='bg-cyan-500 rounded-full px-12 py-3 text-2xl font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href=" https://beacons.ai/uoftesports">Check out our Links</a>
+            <a className='bg-cyan-500 rounded-full px-12 py-3 text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href="https://discord.gg/EyjrqZyjh8">Join our Discord Server</a>
+            <a className='bg-cyan-500 rounded-full px-12 py-3 text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href=" https://beacons.ai/uoftesports">Check out our Links</a>
           </div>
           
         </BoxWrapper>
@@ -46,7 +46,7 @@ export default function Home() {
 
       <section className='py-15'>
         <MaxWidthWrapper>
-          <h1 className='max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12'>Meet the teams</h1>
+          <h3 className='max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12'>Meet the teams</h3>
           <div className="flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel">
             <TeamCard img={Overwatch2} game="Overwatch 2" link="Overwatch2"/>
             <TeamCard img={League} game="League of Legends" link="LeagueOfLegends"/>
@@ -59,7 +59,7 @@ export default function Home() {
       {/* Contact section */}
       <section className='py-36'>
         <MaxWidthWrapper>
-          <h1 className='max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12'>Join our community</h1>
+          <h2 className='max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12'>Join our community</h2>
           <div className='flex justify-center md:justify-between items-center flex-wrap gap-5 mr-3'>
             <Link target='_blank' href={"https://discord.gg/EyjrqZyjh8"}
               className='bg-primary px-16 py-6 md:px-20 md:py-8 rounded-2xl cyan_shadow hover:shadow-none hover:translate-x-2 hover:translate-y-2 duration-100 hover:bg-cyan-500'>

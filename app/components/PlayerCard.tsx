@@ -28,11 +28,11 @@ const PlayerCard: React.FC<PlayerCardProps> = ({
     <div className='flex flex-row w-1/4 h-15 px-5 py-3 space-x-2 bg-secondary rounded-xl cyan_shadow text-white'>
       <Image src={UTESLogo} alt='UTES Crest' className='w-1/3 aspect-square' />
       <div className="mt-3">
-        <h1 className="font-light text-xs">{role}</h1>
-        <h1 className="font-regular font-bold">{name}</h1>
-        <h1 className="font-light text-xs pb-3">
+        <p className="font-light text-xs">{role}</p>
+        <h1 className="font-regular">{name}</h1>
+        <p className="font-light text-xs pb-3">
           IGN: {alias}
-        </h1>
+        </p>
         <div className="flex flex-row space-x-3">
           {twitter && (
             <Link href={`https://www.x.com/${twitter}`}>

@@ -5,8 +5,8 @@ import { cn } from './lib/utils';
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "UofT UTES",
-  description: "Website for UTES",
+  title: "University of Toronto Esports",
+  description: "#BLEEDBLUE",
 };
 
 export default function RootLayout({

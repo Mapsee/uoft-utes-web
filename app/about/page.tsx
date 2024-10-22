@@ -52,7 +52,7 @@ export default function About() {
         </p>
         <h1 className="text-2xl font-medium text-secondary">Collegiate</h1>
         <p className="text-xl py-5">
-          UofT is home to many of the top esports players in our game titles (Overwatch 2, Valorant, League of Legends, Counter-Strike 2). We offer Varsity teams that represent the schoo competing year-long in various tournaments, as well as Academy teams for aspiring competitive players.
+          UofT is home to many of the top esports players in our game titles (Overwatch 2, Valorant, League of Legends, Counter-Strike 2). We offer Varsity teams that represent the school competing year-long in various tournaments, as well as Academy teams for aspiring competitive players.
         </p>
       </MaxWidthWrapper>
     </main>

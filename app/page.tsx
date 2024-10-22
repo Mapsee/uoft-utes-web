@@ -31,20 +31,17 @@ export default function Home() {
 
       <MaxWidthWrapper>
         {/* Hero section */}
-        <BoxWrapper className='-translate-y-20'>
-          <h3 className='max-sm:text-4xl max-sm:text-center text-7xl font-bold'>Welcome to UofT Esports!</h3>
+          <h3 className='mt-20 max-sm:text-4xl max-sm:text-center text-primary text-6xl font-bold'>Welcome to UofT Esports!</h3>
           <p className='text-xl py-5'>UTES is a non-profit student group that is the hub for all Esports and gaming communities & activities at the University of Toronto. We aim to unite students by a common love of gaming through community events & discussions on and offline. We encourage you to come out and meet new people!</p>
           <div className='gap-x-5 flex flex-row'>
-            <a className='bg-cyan-500 rounded-full px-12 py-3 text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href="https://discord.gg/EyjrqZyjh8">Join our Discord Server</a>
-            <a className='bg-cyan-500 rounded-full px-12 py-3 text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href=" https://beacons.ai/uoftesports">Check out our Links</a>
+            <a className='text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href="https://discord.gg/EyjrqZyjh8">Join our Discord Server</a>
+            <a className='text-white bg-cyan-500 rounded-full px-12 py-3 text-2xl bt font-semibold duration-50 hover:scale-105 active:scale-95 hover:bg-cyan-600' href=" https://beacons.ai/uoftesports">Check out our Links</a>
           </div>
-          
-        </BoxWrapper>
       </MaxWidthWrapper>
 
       {/* Team section */}
 
-      <section className='py-15'>
+      <section className='py-15 mt-20'>
         <MaxWidthWrapper>
           <h3 className='max-sm:text-4xl max-sm:text-center uppercase text-primary text-6xl font-bold mb-12'>Meet the teams</h3>
           <div className="flex justify-between gap-5 w-full overflow-x-auto pr-3 pb-3 carousel">

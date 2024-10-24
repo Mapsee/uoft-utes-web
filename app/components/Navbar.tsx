@@ -16,7 +16,7 @@ const Navbar = () => {
             <MaxWidthWrapper>
                 <div className='flex h-full items-center justify-between py-6'>
                     <Link href={"/"}><Image src={Logo} alt='UTES logo' height={100} width={100} quality={100} className='duration-300 hover:scale-105 active:scale-95'/></Link>
-
+                    <h1 className='-ml-20 text-primary'>University of Toronto Esports</h1>
                     {/* non mobile nav */}
                     <div className='hidden md:flex space-x-12 font-bold text-2xl uppercase text-primary tracking-widest'>
                         <Link href={"/about"} className='duration-300 hover:scale-105 active:scale-95 hover:text-cyan-500'>

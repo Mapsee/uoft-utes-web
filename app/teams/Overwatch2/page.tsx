@@ -52,17 +52,22 @@ export default function Overwatch2() {
             <PlayerCard
               alias="Solace"
               name="Mao M."
-              role="DPS"
+              role="Damage"
+              twitch="sorryimsolace"
+              twitter="sorryimsolace"
             />
             <PlayerCard
               alias="Eye"
               name="Yangxiao J."
-              role="DPS"
+              role="Damage"
             />
             <PlayerCard
               alias="Defferatel"
               name="David V."
               role="Support"
+              twitch="defferatel"
+              instagram="realdefferatel"
+              twitter="defferatel2"
             />
             <PlayerCard
               alias="JumboPlayer"
@@ -72,7 +77,8 @@ export default function Overwatch2() {
             <PlayerCard
               alias="GoofyJoober"
               name="Hani S."
-              role="DPS (Sub)"
+              role="Damage (Sub)"
+              twitch="goofyjoober"
             /> 
             <PlayerCard
               alias="Soomshigi"
@@ -83,6 +89,54 @@ export default function Overwatch2() {
               alias="Aspect"
               name="Hunter S."
               role="Tank (Sub)"
+              twitter="ow_aspect"
+              twitch="aspect_ow1"
+            />
+          </div>
+        </div>
+      </MaxWidthWrapper>
+      <MaxWidthWrapper className="py-20">
+        <h1 className="font-bold text-6xl pb-6 text-primary">ACADEMY</h1>
+        <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
+            <PlayerCard
+              alias="Chiori"
+              name="Ryan L."
+              role="Tank"
+            />
+            <PlayerCard
+              alias="computerow "
+              name="Chris N."
+              role="Support"
+              twitch="computerow"
+              instagram="chris.r.nash"
+              twitter="computerow"
+            />
+            <PlayerCard
+              alias="altair"
+              name="Vincent P."
+              role="Damage"
+              instagram="naei.vp"
+              twitch="altairvyz"
+              twitter="altair_vyz"
+            />
+            <PlayerCard
+              alias="atom"
+              name="Adam C."
+              role="Damage"
+              instagram="chalkatom"
+              twitch="chalkatom"
+              twitter="atttom"
+            />
+            <PlayerCard
+              alias="DjAshTray "
+              name="Ashvin S."
+              role="Damage"
+            />
+            <PlayerCard
+              alias="WarHaterSam "
+              name="Sam J."
+              role="Support"
             />
           </div>
         </div>

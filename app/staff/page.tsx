@@ -27,7 +27,6 @@ export default function Overwatch2() {
         />
       </div>
 
-      {/* Varsity */}
       <MaxWidthWrapper className="py-20">
         <h1 className="font-bold text-6xl pb-6 text-primary">Esports Executives</h1>
         <div className="flex flex-row justify-between items-center">
@@ -56,6 +55,41 @@ export default function Overwatch2() {
               alias="fairyy"
               name="Ariana D."
               role="Treasurer"
+            />
+          </div>
+        </div>
+      </MaxWidthWrapper>
+      <MaxWidthWrapper className="py-20">
+        <h1 className="font-bold text-6xl pb-6 text-primary">Media Team</h1>
+        <div className="flex flex-row justify-between items-center">
+          <div className="flex flex-wrap gap-x-20 gap-y-5 justify-stretch">
+            <PlayerCard
+              alias="hugzowugzo"
+              name="Hugo N."
+              role="Head of Graphic Design"
+              instagram="hugomakesmagic"
+            />
+            <PlayerCard
+              alias="catalyst"
+              name="Masaya C."
+              role="Social Media Manager"
+              instagram="masaya.chan"
+              twitch="ttvcatalzying"
+            />
+            <PlayerCard
+              alias="Mapsee"
+              name="Nicole L."
+              role="Graphic Designer & Social Media Manager"
+            />
+            <PlayerCard
+              alias="alle"
+              name="Alle S."
+              role="Graphic Designer"
+            />
+            <PlayerCard
+              alias="yvrini"
+              name="Christina R."
+              role="Graphic Designer"
             />
           </div>
         </div>
